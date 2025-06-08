@@ -7,39 +7,62 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>👋 Hi, I'm Lynn D'Cunha</h1>
-        <p class="subtitle">Master's Graduate in Computer Science | Developer & Agile Enthusiast</p>
-        <p><strong>📍 Based in Dublin, Ireland</strong></p>
-        <p>📫 <a href="mailto:lynndcunha19@gmail.com">lynndcunha19@gmail.com</a> | 📱 +353 873985458</p>
-        <p><a href="https://www.linkedin.com/in/lynndcunha-9270b1231/" target="_blank">LinkedIn Profile</a></p>
+    <header>
+        <nav>
+            <div class="logo">Lynn D'Cunha</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <h2>👨‍💻 About Me</h2>
-        <p>I'm a Computer Science graduate from Griffith College Dublin with a deep interest in Agile software development, web/mobile applications, and cloud-based solutions. My recent experience in a customer-facing tech role at Brown Thomas has helped me sharpen both my technical and interpersonal skills.</p>
+    <main class="container">
+        <section id="about">
+            <h1>👋 Hi, I'm Lynn D'Cunha</h1>
+            <p class="subtitle">Master's Graduate in Computer Science | Developer & Agile Enthusiast</p>
+            <p><strong>📍 Based in Dublin, Ireland</strong></p>
+            <p>📫 <a href="mailto:lynndcunha19@gmail.com">lynndcunha19@gmail.com</a> | 📱 +353 873985458</p>
+            <p><a href="https://www.linkedin.com/in/lynndcunha-9270b1231/" target="_blank">LinkedIn Profile</a></p>
+        </section>
 
-        <h2>🚀 Top Projects</h2>
-        <ul>
-            <li><strong>Finance Management App:</strong> A budgeting app built with Flutter & Firebase. [GitHub Repo Link]</li>
-            <li><strong>Freight Rate Android App:</strong> Kotlin-based app developed during my internship. [GitHub Repo Link]</li>
-        </ul>
+        <section id="projects">
+            <h2>🚀 Top Projects</h2>
+            <div class="project-card">
+                <h3>💰 Finance Management App</h3>
+                <p>A budgeting app built with Flutter & Firebase.</p>
+                <p><strong>Tech Stack:</strong> Flutter / Firebase / Firestore</p>
+                <a href="#">GitHub Repo</a>
+            </div>
+            <div class="project-card">
+                <h3>📦 Freight Rate Android App</h3>
+                <p>Kotlin-based app developed during my internship.</p>
+                <p><strong>Tech Stack:</strong> Kotlin / Android Studio</p>
+                <a href="#">GitHub Repo</a>
+            </div>
+        </section>
 
-        <h2>🧠 Skills & Tools</h2>
-        <p><strong>Languages:</strong> Python, Kotlin, JavaScript, SQL, Java</p>
-        <p><strong>Frameworks:</strong> Flask, Django, Express, Android Studio</p>
-        <p><strong>Cloud:</strong> Google Cloud, AWS, Firebase</p>
-        <p><strong>Practices:</strong> Agile, SDLC, CI/CD</p>
-        <p><strong>Tools:</strong> Trello, JIRA, GitHub Actions</p>
+        <section id="skills">
+            <h2>🧠 Skills & Tools</h2>
+            <ul>
+                <li><strong>Languages:</strong> Python, Kotlin, JavaScript, SQL, Java</li>
+                <li><strong>Frameworks:</strong> Flask, Django, Express, Android Studio</li>
+                <li><strong>Cloud:</strong> Google Cloud, AWS, Firebase</li>
+                <li><strong>Practices:</strong> Agile, SDLC, CI/CD</li>
+                <li><strong>Tools:</strong> Trello, JIRA, GitHub Actions</li>
+            </ul>
+        </section>
 
-        <h2>📈 Currently Exploring</h2>
-        <ul>
-            <li>Advanced web development (React, TypeScript)</li>
-            <li>Backend system architecture</li>
-            <li>Real-world Agile team collaboration</li>
-            <li>Security best practices and DevOps workflows</li>
-        </ul>
+        <section id="contact">
+            <h2>📨 Let's Connect</h2>
+            <p>I'm open to roles in web/mobile development, project coordination, or early-career software engineering. Feel free to reach out via <a href="mailto:lynndcunha19@gmail.com">email</a>.</p>
+        </section>
+    </main>
 
-        <h2>📨 Let's Connect</h2>
-        <p>I'm open to roles in web/mobile development, project coordination, or early-career software engineering. Feel free to reach out!</p>
-    </div>
+    <footer>
+        <p>&copy; 2025 Lynn D'Cunha</p>
+    </footer>
 </body>
 </html>
